@@ -1,0 +1,14 @@
+extends base
+
+block content
+    section.error__img
+        img.error__img_girl(src='/img/error.png')
+
+    main.main
+        .error
+            .error__title
+                h2.heading-secondary.heading-secondary--error Uh oh! Something went wrong!   
+                h2.error__emoji  
+            .error__msg= msg
+
+    
